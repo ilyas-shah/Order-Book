@@ -133,10 +133,6 @@ export const OrderBookScreen = () => {
         <Text>Connecting...</Text>
       ) : (
         <>
-          <View style={styles.orderItem}>
-            <Text style={{ fontWeight: 'bold' }}>TOTAL</Text>
-            <Text style={{ fontWeight: 'bold' }}>PRICE</Text>
-          </View>
           {/* Asks List */}
           <View style={styles.orderListContainer}>
             <View style={styles.orderItemContainer}>
